@@ -17,7 +17,7 @@ respuesta = nil
 #Calculo de Impuestos
 if utilidades > 0
     #Respuesta si tiene Utilidades
-    utilidades = (utilidades*0.35) - utilidades
+    utilidades = utilidades - (utilidades*0.35) 
     respuesta = "Su negocio si es Rentable, este tendra utilidades por US$ #{utilidades.to_f} , segun valores ingresados "
 else
     #Respuesta si no Tiene Utilidades
